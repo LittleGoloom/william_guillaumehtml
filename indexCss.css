@@ -38,6 +38,8 @@
 {
     z-index: 1;
 
+    top: 10px;
+
     position: relative;
     display: flex;
     flex-direction: row;
@@ -49,11 +51,10 @@
 {
     z-index: 4;
 
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    align-items: center;
+    top: 372px;
+    left: 524px;
+
+    position: absolute;
 }
 
 #BarreBas
@@ -64,6 +65,8 @@
 
     width: fit-content, 0px, auto;
     background: rgb(224, 193, 179);
+
+    position: relative;
 }
 
 #TexteBasPageAccueil
@@ -77,4 +80,21 @@
     height: 697px;
     width: 601px;
     background-color: black;
+}
+
+#PageContactArrierePlan
+{
+    z-index: 1;
+
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.formulaires
+{
+    display: flex;
+    align-items: center;
 }
