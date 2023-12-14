@@ -12,6 +12,11 @@
     margin: 0px; padding: 0px;
 }
 
+.FamilleTexteEnBlanc
+{
+    color: white;
+}
+
 .centrerElements
 {
     display: block;
@@ -91,6 +96,8 @@
     background-color: black;
 }
 
+/* SECTION DES CODES UNIQUES À LA PAGE CONTACT */
+
 #PageContactArrierePlan
 {
     z-index: 1;
@@ -152,8 +159,35 @@
 #RectangleTexteAdultSwim
 {
     position: relative;
-    margin-top: 167px;
-    height: 288px;
+    margin-top: 152px;
+    padding-left: 13px;
+    height: 352px;
     width: 50%;
+    background-color: black;
+}
+
+#RectangleTexteAutresAdultSwim
+{
+    position: relative;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    padding-left: 13px;
+    height: 288px;
+    width: 31%;
+    background-color: black;
+}
+
+#AudiosAdultSwim
+{
+    padding-top: 5%;
+}
+
+#RectangleTexteAdultSwimSmalls
+{
+    position: relative;
+    margin-top: 28px;
+    margin-left: 100%;
+    height: 288px;
+    width: 98.5%;
     background-color: black;
 }
