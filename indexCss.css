@@ -277,6 +277,11 @@
 
 .texteHistoire {
     text-align: center;
-    font-size: 1.810vw; /* Adjust font-size in percentage */
+    font-weight: normal;
+    margin-left: 4.5%;
+    margin-right: 4.5%;
+    padding-top: 7px;
+    line-height: 1.85;
+    font-size: 1.450vw;
     color: white;
 }
