@@ -158,17 +158,17 @@
 
 #formulaire2
 {
-    position: fixed;
+    position: absolute;
     z-index: 11;
-    top: 66%;
+    top: 68%;
     left: 29%;
 }
 
 #formulaire3
 {
-    position: fixed;
+    position: absolute;
     z-index: 11;
-    top: 66%;
+    top: 68%;
     left: 63%;
 }
 
@@ -236,16 +236,20 @@
 
 #AudiosAdultSwim
 {
-    padding-top: 5%;
-
-    width: 42%; margin-left: 110%;
+    position: absolute;
+    z-index: 12;
+    top: 10%;
+    left: 101%;
 }
 
 #RectangleTexteAdultSwimSmalls
 {
-    position: relative;
-    margin-top: 28px;
-    margin-left: 100%;
+    position: absolute;
+
+    z-index: 12;
+    top: 109%;
+    left: 107%;
+
     height: 288px;
     width: 98.5%;
     background-color: black;
@@ -298,11 +302,19 @@
 
 #TexteRectangle3P
 {
-    font-size: 28px;
+    font-size: 27px;
     font-weight: normal;
     line-height: 1.4;
     padding-left: 3%;
     padding-top: 3.5%;
+}
+
+#imageAdultSwimPage
+{
+    position: absolute;
+    z-index: 1;
+    top: 0%;
+    left: 107%;
 }
 
 /* SECTION DES CODES UNIQUES À LA PAGE HISTOIRE */
