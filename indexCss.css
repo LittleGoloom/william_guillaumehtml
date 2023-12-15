@@ -76,6 +76,16 @@
     align-items: center;
 }
 
+#ArrierePlan1Dimension
+{
+    width: 100%; height: auto;
+}
+
+#ArrierePlan2Dimension
+{
+    width: 100%; height: auto;
+}
+
 .MainBoutons
 {
     position: absolute;
@@ -88,11 +98,11 @@
     pointer-events: auto;
 }
 
-.Bouton1 { z-index: 4; top: 16.5%; left: 524px;}
-.Bouton2 { z-index: 5; top: 30%; left: 524px;}
-.Bouton3 { z-index: 6; top: 44%; left: 524px;}
-.Bouton4 { z-index: 7; top: 58%; left: 524px;}
-.Bouton5 { z-index: 8; top: 72%; left: 524px;}
+.Bouton1 { z-index: 4; top: 16.5%; left: 38%; }
+.Bouton2 { z-index: 5; top: 30%; left: 38%; }
+.Bouton3 { z-index: 6; top: 44%; left: 38%; }
+.Bouton4 { z-index: 7; top: 58%; left: 38%; }
+.Bouton5 { z-index: 8; top: 72%; left: 38%; }
 
 #TexteBasPageAccueil
 {
@@ -102,6 +112,14 @@
 }
 
 /* SECTION DES CODES UNIQUES À LA PAGE CONTACT */
+
+.contactPlaceholderFont::placeholder
+{
+    font-family: "Jolly-Lodger", sans-serif;
+    font-size: 28px;
+    padding-left: 5px;
+    opacity: 1;
+}
 
 #PageContactArrierePlan
 {
@@ -118,6 +136,40 @@
 {
     display: flex;
     flex-direction: column;
+    margin-bottom: 115px;
+}
+
+.formulaires textarea
+{
+    border: 3px solid black;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.2);
+}
+
+#FormulaireTexte1
+{
+    font-size: 28px;
+    font-weight: normal;
+}
+
+.formulaires label
+{
+    margin-bottom: 5px;
+}
+
+#formulaire2
+{
+    position: fixed;
+    z-index: 11;
+    top: 66%;
+    left: 29%;
+}
+
+#formulaire3
+{
+    position: fixed;
+    z-index: 11;
+    top: 66%;
+    left: 63%;
 }
 
 /* SECTION DES CODES UNIQUES À LA PAGE PSYCHOLOGIE */
@@ -185,6 +237,8 @@
 #AudiosAdultSwim
 {
     padding-top: 5%;
+
+    width: 42%; margin-left: 110%;
 }
 
 #RectangleTexteAdultSwimSmalls
@@ -195,6 +249,60 @@
     height: 288px;
     width: 98.5%;
     background-color: black;
+}
+
+#TexteRectangle1H1
+{
+    font-size: 28px;
+    font-weight: normal;
+    padding-top: 5px;
+}
+
+#TexteRectangle2H1
+{
+    font-size: 28px;
+    font-weight: normal;
+    padding-top: 5px;
+    padding-left: 1px;
+}
+
+#TexteRectangle3H1
+{
+    font-size: 28px;
+    font-weight: normal;
+    padding-left: 1%;
+    padding-top: 5px;
+}
+
+#TexteRectangle1P
+{
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 1.5;
+    padding-left: 1%;
+    padding-top: 7%;
+}
+
+#TexteRectangle2P
+{
+    font-family: "Inter";
+    src: url(./Inter-VariableFont_slnt\,wght.ttf);
+    font-family: "Inter", sans-serif;
+
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 2.5;
+    text-align: center;
+    padding-top: 3.5%;
+}
+
+#TexteRectangle3P
+{
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 1.4;
+    padding-left: 3%;
+    padding-top: 3.5%;
 }
 
 /* SECTION DES CODES UNIQUES À LA PAGE HISTOIRE */
