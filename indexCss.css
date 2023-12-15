@@ -22,7 +22,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-  }
+}
 
 .ImagesBarreHautPaddingLeft
 {
@@ -45,6 +45,23 @@
     justify-content: left;
     align-items: center;
 }
+
+#BarreBas
+{
+    z-index: 3;
+
+    height:142px;
+
+    width: fit-content, 0px, auto;
+    background: rgb(224, 193, 179);
+    
+    line-height: 42px;
+    font-size: 28px;
+
+    position: relative;
+}
+
+/* SECTION DES CODES UNIQUES À LA PGE ACCUEIL */
 
 #MainArrierePlan
 {
@@ -77,34 +94,11 @@
 .Bouton4 { z-index: 7; top: 58%; left: 524px;}
 .Bouton5 { z-index: 8; top: 72%; left: 524px;}
 
-#BarreBas
-{
-    z-index: 3;
-
-    height:142px;
-
-    width: fit-content, 0px, auto;
-    background: rgb(224, 193, 179);
-    
-    line-height: 42px;
-    font-size: 28px;
-
-    position: relative;
-}
-
 #TexteBasPageAccueil
 {
     align-content: left;
     padding-top: 45px;
     padding-left: 34px;
-}
-
-#RectangleTexteHistoire
-{
-    margin-left: 407px;
-    height: 697px;
-    width: 601px;
-    background-color: black;
 }
 
 /* SECTION DES CODES UNIQUES À LA PAGE CONTACT */
